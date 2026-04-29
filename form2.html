@@ -12,7 +12,15 @@
 	font-family: 'Poppins', sans-serif;
 }
 body:before {
-
+position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(sky.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	//background-attachment: fixed;
+	-webkit-background-size: cover;
+//	background-size: cover;
 	
 	content: '';
 	position: fixed;
@@ -21,12 +29,12 @@ body:before {
 	background-image: url(sky.png);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	//background-attachment: fixed;
 	-webkit-background-size: cover;
-	background-size: cover;
+//	background-size: cover;
 	-webkit-filter: blur(10px);
-	-moz-filter: blur(10px);
-	filter: blur(10px);
+	-moz-filter: blur(10px)
+		//filter: blur(10px);
 }
 .contact-form {
 	position: absolute;
