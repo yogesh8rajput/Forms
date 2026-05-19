@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application</title>
+    <link rel="stylesheet" href="JA.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Job Application <span style="font-size: small">(Web)</span></h1>
+
+      <form action="">
+        <table>
+          <tr>
+            <td>
+              First Name: <br />
+              <input type="text" placeholder="Enter first name" />
+            </td>
+            <td>
+              Last Name: <br />
+              <input type="text" placeholder="Enter last name" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              Email: <br />
+              <input type="email" placeholder="Enter email" />
+            </td>
+            <td>
+              Job Role:<br />
+              <select value=" select job role" required>
+                <option value="">Select Job Role</option>
+                <option name="" id="">Manager</option>
+                <option name="head" id="">Head</option>
+                <option name="employee" id="">Employee</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+             Enter Address: <br>
+             <textarea cols="60" rows="5"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              City: <br />
+              <input type="text" placeholder="Enter City.." />
+            </td>
+            <td>
+              Pincode: <br />
+              <input type="text" placeholder="Enter Pincode" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              Start Date: <br />
+              <input type="date" />
+            </td>
+            <td>
+              Upload Your CV: <br />
+              <input type="file" accept=".pdf" />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align: end;">
+              <button>Apply Now</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
